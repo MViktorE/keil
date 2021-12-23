@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\startup_stm32f103xb.o"
+".\objects\system_stm32f1xx.o"
+".\objects\systick_cmsis_m3_mve_v0.o"
+".\objects\gpio_cmsis_m3_mve_v0.o"
+".\objects\rcc_cmsis_m3_mve_v0.o"
+".\objects\uart_cmsis_m3_mve_v0.o"
+".\objects\line_recognition_ciam_mve_v0.o"
+".\objects\can_cmsis_m3_mve_v0.o"
+".\objects\nextion_cmsis_mve_v1.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CMSIS_F103.map" -o .\Objects\CMSIS_F103.axf

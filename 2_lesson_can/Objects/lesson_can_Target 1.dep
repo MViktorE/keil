@@ -1,0 +1,35 @@
+Dependencies for Project 'lesson_can', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x61AF37DC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="536" -DSTM32F10X_MD-o ./objects/main.o -MD)
+I (main.h)(0x619F484B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\stm32f1xx.h)(0x619F2DC1)
+I (CMSIS\stm32f103xb.h)(0x60BDBEA6)
+I (CMSIS\core_cm3.h)(0x60BDBEA6)
+I (CMSIS\cmsis_version.h)(0x60BDBEA6)
+I (CMSIS\cmsis_compiler.h)(0x60BDBEA6)
+I (CMSIS\cmsis_armclang.h)(0x60BDBEA6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\system_stm32f1xx.h)(0x60BDBEA6)
+F (.\main.h)(0x619F484B)()
+F (.\CMSIS\cmsis_armclang.h)(0x60BDBEA6)()
+F (.\CMSIS\cmsis_compiler.h)(0x60BDBEA6)()
+F (.\CMSIS\cmsis_iccarm.h)(0x60BDBEA6)()
+F (.\CMSIS\cmsis_version.h)(0x60BDBEA6)()
+F (.\CMSIS\core_cm3.h)(0x60BDBEA6)()
+F (.\CMSIS\startup_stm32f103xb.s)(0x60BDBEA6)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"STM32F10X_MD SETA 1"-o ./objects/startup_stm32f103xb.o)
+F (.\CMSIS\stm32f1xx.h)(0x619F2DC1)()
+F (.\CMSIS\stm32f103xb.h)(0x60BDBEA6)()
+F (.\CMSIS\system_stm32f1xx.c)(0x60BDBEA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="536" -DSTM32F10X_MD-o ./objects/system_stm32f1xx.o -MD)
+I (CMSIS\stm32f1xx.h)(0x619F2DC1)
+I (CMSIS\stm32f103xb.h)(0x60BDBEA6)
+I (CMSIS\core_cm3.h)(0x60BDBEA6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\cmsis_version.h)(0x60BDBEA6)
+I (CMSIS\cmsis_compiler.h)(0x60BDBEA6)
+I (CMSIS\cmsis_armclang.h)(0x60BDBEA6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\system_stm32f1xx.h)(0x60BDBEA6)
+F (.\CMSIS\system_stm32f1xx.h)(0x60BDBEA6)()
